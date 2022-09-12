@@ -1,5 +1,5 @@
 import random
-words = ['HARRY', 'HERMIONA', 'RON', 'GLEN']
+words = ['HENRY', 'MARIA', 'RON', 'GLEN', 'ADAM', 'VERONIKA', 'BRANO', 'MARIANA']
 random_word = random.choice(words)
 
 #prazdne polia
@@ -14,7 +14,7 @@ print()
 lives = 6
 
 #hra
-while '_' in word_guess:
+while lives != 0:
     guess = input('Uhadni pismeno alebo cele slovo\n').upper()
     if guess == random_word:
         print(random_word)
