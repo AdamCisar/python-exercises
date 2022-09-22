@@ -1,4 +1,23 @@
-from Logo_auction import auction_logo
+auction_logo = '''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | ''-.
+                          |       |_| |_             _| |_..-'
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                         `'-------'`
+                       .-------------.
+                      /_______________\\
+'''
+
+
+
+
+
+
 import os
 print(auction_logo)
 print('Vitajte v programu pre tichu drazbu')
