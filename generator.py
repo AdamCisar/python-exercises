@@ -26,7 +26,7 @@ for i in range(0,password_special_char):
 
 random.shuffle(password_sum)
 for x in password_sum:
-        print(x,end= "")
+     print(x,end = '')
     
     
   
